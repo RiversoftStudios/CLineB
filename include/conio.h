@@ -4,8 +4,16 @@
 #ifndef _CLineB___CONIO_H__
 #define _CLineB___CONIO_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 /* TODO */
 
 #include <LineCore/console.h>
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

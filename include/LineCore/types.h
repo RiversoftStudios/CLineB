@@ -4,6 +4,10 @@
 #ifndef _CLineB___LINECORE_TYPES_H__
 #define _CLineB___LINECORE_TYPES_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef _CLineB__NEEDS
 #define _CLineB__NEEDS
 #define _CLineB__NEEDS_INT_T
@@ -26,5 +30,9 @@ typedef unsigned long uint64_t;
 
 #undef _CLineB__NEEDS_INT_T
 #undef _CLineB__NEEDS
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif

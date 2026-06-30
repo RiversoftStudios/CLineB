@@ -4,6 +4,10 @@
 #ifndef _CLineB___LINECORE_CONSOLE_H__
 #define _CLineB___LINECORE_CONSOLE_H__
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef _CLineB__NEEDS
 #define _CLineB__NEEDS
 #define _CLineB__NEEDS_WRITESTRING
