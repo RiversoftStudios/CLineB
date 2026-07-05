@@ -1,27 +1,26 @@
 /* SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: Copyright (C) 2026 NexusSfan */
+ * SPDX-FileCopyrightText: Copyright (C) 2026 River Games */
 
-#ifndef _CLineB___LINECORE_RANDOM_H__
+#if !defined(_CLineB___LINECORE_RANDOM_H__)
 #define _CLineB___LINECORE_RANDOM_H__
 
-#ifdef __cplusplus
-extern "C" {
-#endif
+#include <LineKernel/rand_max.h>
 
-#ifndef _CLineB__NEEDS
+#if !defined(_CLineB__NEEDS)
 #define _CLineB__NEEDS
 #define _CLineB__NEEDS_RAND
 #endif
 
-#ifdef _CLineB__NEEDS_RAND
+#include <CLineB/decl.h>
+_CLineB___BEGIN_DECL
+
+#if defined(_CLineB__NEEDS_RAND)
 int rand(void);
 #endif
 
+_CLineB___END_DECL
+
 #undef _CLineB__NEEDS_RAND
 #undef _CLineB__NEEDS
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif

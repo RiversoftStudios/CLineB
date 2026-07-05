@@ -1,19 +1,15 @@
 /* SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: Copyright (C) 2026 NexusSfan */
+ * SPDX-FileCopyrightText: Copyright (C) 2026 River Games */
 
-#ifndef _CLineB___LINECORE_TYPES_H__
+#if !defined(_CLineB___LINECORE_TYPES_H__)
 #define _CLineB___LINECORE_TYPES_H__
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-#ifndef _CLineB__NEEDS
+#if !defined(_CLineB__NEEDS)
 #define _CLineB__NEEDS
 #define _CLineB__NEEDS_INT_T
 #endif
 
-#ifdef _CLineB__NEEDS_INT_T
+#if defined(_CLineB__NEEDS_INT_T)
 /* Types by size. */
 typedef signed char int8_t;
 typedef unsigned char uint8_t;
@@ -30,9 +26,5 @@ typedef unsigned long uint64_t;
 
 #undef _CLineB__NEEDS_INT_T
 #undef _CLineB__NEEDS
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif

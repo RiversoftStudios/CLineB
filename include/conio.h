@@ -1,19 +1,16 @@
 /* SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: Copyright (C) 2026 NexusSfan */
+ * SPDX-FileCopyrightText: Copyright (C) 2026 River Games */
 
-#ifndef _CLineB___CONIO_H__
+#if !defined(_CLineB___CONIO_H__)
 #define _CLineB___CONIO_H__
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-/* TODO */
 
 #include <LineCore/console.h>
 
-#ifdef __cplusplus
-}
-#endif
+#include <CLineB/decl.h>
+
+_CLineB___BEGIN_DECL
+/* TODO */
+_CLineB___END_DECL
 
 #endif
