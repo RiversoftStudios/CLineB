@@ -3,3 +3,6 @@ Some thing to do before finishing CLineB:
 - mem* and str* functions
 
 - Better GCC support with the builtins <https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html>
+
+SPDX-License-Identifier: CC0-1.0
+SPDX-FileCopyrightText: Copyright (C) 2026 River Games

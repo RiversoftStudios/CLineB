@@ -18,24 +18,24 @@
 _CLineB___BEGIN_DECL
 
 #if defined(_CLineB__NEEDS_WRITESTRING)
-int writestring(char* array);
+void writestring(char* array);
 #endif
 
 #if defined(_CLineB__NEEDS_TERMCOLOR)
 #include <LineKernel/linecolor_t.h>
-int termcolor(linecolor_t fg_color, linecolor_t bg_color);
+void termcolor(linecolor_t fg_color, linecolor_t bg_color);
 #endif
 
 #if defined(_CLineB__NEEDS_TERMSCOLOR)
-int termscolor(void);
+void termscolor(void);
 #endif
 
 #if defined(_CLineB__NEEDS_TERMCLEAR)
-int termclear(void);
+void termclear(void);
 #endif
 
 #if defined(_CLineB__NEEDS_TERMCURSOR)
-int termcursor(int x, int y);
+void termcursor(int x, int y);
 #endif
 
 #if defined(_CLineB__NEEDS_GETCHAR)
