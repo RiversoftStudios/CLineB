@@ -1,0 +1,5 @@
+Some thing to do before finishing CLineB:
+
+- mem* and str* functions
+
+- Better GCC support with the builtins <https://gcc.gnu.org/onlinedocs/gcc/Other-Builtins.html>
