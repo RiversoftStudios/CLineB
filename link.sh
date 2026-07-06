@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 . arches/${ARCH}.sh
-${CCPREFIX}ld -nostdlib ../libc/crt0.o hello.o ../libc/libc.a -o hello.elf
+${CCPREFIX}ld -nostdlib ../TODO/crt0.o $1 ../TODO/CLineB.a -o $2

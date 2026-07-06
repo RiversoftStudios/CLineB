@@ -9,12 +9,12 @@ CFLAGS += -Wall -Wextra -std=gnu99 -ffreestanding -nostdinc -I./include -I$(LINE
 OBJ = src/errno.o src/LineCore/console.o
 
 # TODO: crt0.s
-all: clineb.a
+all: CLineB.a
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-clineb.a: $(OBJ)
+CLineB.a: $(OBJ)
 	$(AR) rcs $@ $(OBJ)
 
 clean:
