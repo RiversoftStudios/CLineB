@@ -11,7 +11,7 @@
 #if defined(__SIZE_TYPE__)
 	typedef __SIZE_TYPE__ size_t;
 #else
-	/* Assuming ILP32 for now, since ELF follows this(?) */
+	/* Assuming ILP32 and LP64 for now, since ELF follows this(?) */
 	typedef long unsigned int size_t;
 #endif
 

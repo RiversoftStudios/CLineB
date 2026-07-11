@@ -9,6 +9,8 @@
 #include <CLineB/decl.h>
 _CLineB___BEGIN_DECL
 
+extern int errno;
+
 char* strerror(int errnum);
 
 _CLineB___END_DECL

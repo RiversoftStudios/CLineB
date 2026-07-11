@@ -1,2 +1,4 @@
 *.o
 *.a
+*DO_NOT_COMMIT*
+compile_flags.txt
