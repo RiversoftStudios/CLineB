@@ -3,10 +3,11 @@
 
 #include <LineKernel/syscall.h>
 #include <LineKernel/linecolor_t.h>
+#include "LineCore/intptr_t.h"
 
 void writestring(char* array)
 {
-	syscall3(SYS_print2, (long)array, 0, 0);
+	syscall3(SYS_print2, (uintptr_t)array, 0, 0);
 }
 
 void termcolor(linecolor_t fg_color, linecolor_t bg_color)
