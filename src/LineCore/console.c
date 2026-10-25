@@ -5,7 +5,7 @@
 #include <LineKernel/linecolor_t.h>
 #include "LineCore/intptr_t.h"
 
-void writestring(char* array)
+void writestring(const char* array)
 {
 	syscall3(SYS_print2, (uintptr_t)array, 0, 0);
 }

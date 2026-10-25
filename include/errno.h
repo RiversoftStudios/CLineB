@@ -12,6 +12,7 @@ _CLineB___BEGIN_DECL
 extern int errno;
 
 char* strerror(int errnum);
+void perror(const char* message);
 
 _CLineB___END_DECL
 

@@ -18,7 +18,7 @@
 _CLineB___BEGIN_DECL
 
 #if defined(_CLineB__NEEDS_WRITESTRING)
-void writestring(char* array);
+void writestring(const char* array);
 #endif
 
 #if defined(_CLineB__NEEDS_TERMCOLOR)

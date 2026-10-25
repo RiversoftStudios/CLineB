@@ -18,3 +18,8 @@ For includes from CLineB, use `"quotations"`
 
 ### `include`
 Use `<angles>` for includes from LineKernel and CLineB.
+
+<!--
+SPDX-License-Identifier: CC0-1.0
+SPDX-FileCopyrightText: Copyright (C) 2026 Riversoft Studios
+-->

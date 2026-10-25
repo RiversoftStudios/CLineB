@@ -21,7 +21,7 @@
 		errno = EBADF; \
 		return -1; \
 	case 0: \
-		return 0; \
+		return retval; \
 	default: \
 		errno = EIO; \
 		return -1; \

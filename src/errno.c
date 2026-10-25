@@ -2,6 +2,7 @@
  * SPDX-FileCopyrightText: Copyright (C) 2026 Riversoft Studios */
 
 #include "LineCore/errnos.h"
+#include "LineCore/console.h"
 
 int errno = 0;
 
@@ -23,4 +24,12 @@ char* strerror(int errnum)
 		default:
 			return "???";
 	}
+}
+
+void perror(const char* message)
+{
+	writestring(message);
+	writestring(": ");
+	writestring(strerror(errno));
+	writestring("\n");
 }
