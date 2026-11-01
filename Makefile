@@ -20,7 +20,7 @@ endif
 CFLAGS ?= -O2
 # $(LINEKERNEL_PATH) is required.
 CFLAGS += -Wall -Wextra -Wpedantic -std=c89 -ffreestanding -nostdlib -nostdinc -I./include -I$(LINEKERNEL_PATH)/include -DARCH_$(ARCH)
-OBJ = src/errno.o src/LineCore/console.o src/LineCore/file.o
+OBJ = src/errno.o src/LineCore/console.o src/LineCore/file.o src/LineCore/memory.o
 
 # TODO: crt0.s
 all: CLineB.a
